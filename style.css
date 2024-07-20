@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "ebas Neue", sans-serif;
+    border: none;
+}
+body{
+    background-color: black;
+    background-image: url(assets/background.jpg);
+    background-repeat: none;
+    background-size: 100%;
+}
+
+.background{
+    z-index: -1;
+    width: 100%;
+    opacity: calc(60%);
+}
+/* .logo{
+    height: 470px;
+    background-color: pink;
+    display: none;
+} */
+.netflix{
+
+    height: 90px;
+    top: 5px;
+    left: 100px;
+    z-index: +2;
+    position: absolute;
+}
+.maincontent{
+    height: 600px;
+    min-width: 360px;
+    max-width: 360px;
+    margin-top: 100px;
+    margin-left: 36%;
+    padding: 50px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.767);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content:space-around;
+;
+}
+.maincontent form{    
+    display: flex;
+    flex-direction: column;
+}
+form input{
+    height: 50px;
+    width: 360px;
+    border-radius: 5px;
+    background-color:rgba(240, 248, 255, 0.062);
+    border: 1px rgb(219, 219, 219) solid;
+    padding-left: 15px;
+    font-size: 17px;
+    font-weight: 300;
+}
+form input:after{
+    color: white;
+}
+.maincontent h2{
+    color: white;
+    font-size: 35px;
+}
+.maincontent button{
+    height: 50px;
+    width: 360px;
+    border-radius: 5px;
+    border: none;
+}
+.maincontent h3{
+    color: white;
+    align-self: center;
+}
+.signin{
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+}
+.signincode{
+    background-color: rgba(129, 129, 129, 0.377);
+    font-size: 17px;
+    color: white;
+    font-weight: 500;
+}
+.forgot{
+    text-decoration: none;
+    color: white;
+    align-self: center;
+}
+.forgot:hover{
+    text-decoration: underline;
+    color: rgb(204, 204, 204);
+}
+.remme{
+    color: white;
+    height: 20px;
+}
+
+.footer{
+    background-color: rgb(0, 0, 0);
+    height: 200px;
+    width: 100%;
+}
